@@ -9,14 +9,14 @@ Repositório de referência:
 # Requisitos
 
 - Geral
-    - [ ]  Manipule o HTML usando somente React (sem usar o document nem bibliotecas como jQuery)
-    - [ ]  Seu projeto deverá ser desenvolvido utilizando Git e GitHub
-    - [ ]  Para isso, comece fazendo um **fork** **privado** do projeto de referência:
-    - [ ]  **A cada requisito implementado** faça um commit com uma mensagem descritiva do que você evoluiu. Caso queira dividir um requisito em vários commits, não há problema. Mas evite colocar mais de um requisito no mesmo commit
+    - [x]  Manipule o HTML usando somente React (sem usar o document nem bibliotecas como jQuery)
+    - [x]  Seu projeto deverá ser desenvolvido utilizando Git e GitHub
+    - [x]  Para isso, comece fazendo um **fork** **privado** do projeto de referência:
+    - [x]  **A cada requisito implementado** faça um commit com uma mensagem descritiva do que você evoluiu. Caso queira dividir um requisito em vários commits, não há problema. Mas evite colocar mais de um requisito no mesmo commit
 - Layout
-    - [ ]  Aplicar layout para mobile, seguindo imagens fornecida (não é necessário implementar um layout para desktop)
-    - [ ]  Topo deve ser fixo
-    - [ ]  Hexadecimal do vermelho: #E44141
+    - [x]  Aplicar layout para mobile, seguindo imagens fornecida (não é necessário implementar um layout para desktop)
+    - [x]  Topo deve ser fixo
+    - [x]  Hexadecimal do vermelho: #E44141
 - Lista de Pokémon
     - [ ]  Ao entrar na página inicial (`"/"`), deverá ser carregada uma lista com todos os Pokémon da API, seguindo o layout fornecido
         - URL da API para buscar todos os Pokémon: [https://pokeapi.co/api/v2/pokemon?limit=893](https://pokeapi.co/api/v2/pokemon?limit=893)
