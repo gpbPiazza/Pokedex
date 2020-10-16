@@ -24,13 +24,13 @@ Repositório de referência:
     - [X]  Ao clicar em um Pokémon, o usuário deverá ser encaminhado para a rota `"/pokemon/:id"` em que no lugar de **:id** entre o id do Pokémon conforme retornou da API
         - Dica: a API não retorna o id explicitamente, porém ela retorna uma URL do Pokémon, e o último parâmetro dessa URL é o id. Para pegar somente o id de dentro dessa string, pesquise pelo método `.split()` e quebre essa string a cada barra (`/`)
 - Página de um Pokémon
-    - [ ]  Ao entrar na página de um Pokémon, deverão ser carregados os dados daquele Pokémon a partir da API e exibidos conforme layout fornecido
+    - [x]  Ao entrar na página de um Pokémon, deverão ser carregados os dados daquele Pokémon a partir da API e exibidos conforme layout fornecido
         - URL da API para obter um Pokémon: [https://pokeapi.co/api/v2/pokemon/:id](https://pokeapi.co/api/v2/pokemon/:id), onde :id é o id do Pokémon
-    - [ ]  Enquanto os dados do Pokémon estão carregando, deve ser exibida uma mensagem de "Carregando" na tela
-    - [ ]  Ao clicar em "Voltar", o usuário deve retornar para a página inicial
-    - [ ]  Ao clicar em Próximo/Anterior, o usuário deve ser redirecionado para a página referente ao Pokémon correspondente, seguindo a ordem que vem da API
+    - [x]  Enquanto os dados do Pokémon estão carregando, deve ser exibida uma mensagem de "Carregando" na tela
+    - [x]  Ao clicar em "Voltar", o usuário deve retornar para a página inicial
+    - [x]  Ao clicar em Próximo/Anterior, o usuário deve ser redirecionado para a página referente ao Pokémon correspondente, seguindo a ordem que vem da API
         - Para isso, some/subtraia 1 do id do Pokémon
-    - [ ]  Caso o usuário esteja visualizando o primeiro/último Pokémon, trate para não exibir o botão de Próximo/Anterior
+    - [x]  Caso o usuário esteja visualizando o primeiro/último Pokémon, trate para não exibir o botão de Próximo/Anterior
 
 # Bônus
 

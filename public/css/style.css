@@ -8,6 +8,8 @@ body {
     font-family: "Nunito", sans-serif;
     margin: 0;
     margin-top: 100px;
+    text-transform: capitalize;
+    overflow-x: hidden;
   }
   
   header {
@@ -23,11 +25,13 @@ body {
     box-shadow: 0 4px 4px rgba(0, 0, 0,0.5);
     z-index: 1;
   }
+
   .loading__pokemons {
     text-align: center;
     font-weight: bold;
     font-size: 1.5rem;
   }
+
   .home__container {
     margin: 1rem;
     display: flex;
@@ -46,6 +50,7 @@ body {
       display: flex;
       flex-direction: column;
   }
+
   .home__container li img{
     width: 100%;
   }
@@ -62,6 +67,7 @@ body {
     color: #d6d6d6;
     text-align: center;
   }
+
   .home__container ul {
     display: flex;
     justify-content: center;
@@ -80,8 +86,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
   }
+
   .inspect {
     display: flex;
     justify-content: center;
@@ -89,25 +95,29 @@ body {
     flex-direction: column;
   }
 
-
-
   .selected__Pokemon div span {
     color: #d6d6d6;
     display: flex;
     justify-content: center;
   }
+
   .selected__Pokemon button {
     border: none;
     background: #ffff;
     height: 100%;
     font-size: 3rem;
     color: #b1b1b1;
+    width: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .status__container div {
    text-align: center;
    padding: 1rem;
   }
+
   .status__container {
     width: 21rem;
     margin-top: 1rem;
@@ -135,9 +145,11 @@ body {
     flex-direction: column;
     height: 100%;
   }
+
   .types__and__abilities li {
     padding-left: 0.5rem;
   }
+
   .types__and__abilities--title {
     width: 100%;
     margin-left:4rem;

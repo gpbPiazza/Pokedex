@@ -2,39 +2,50 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import {useParams} from "react-router-dom";
 import Status from './Status';
+import {Link} from "react-router-dom";
 
 
 
 export default function Inspect() {
-    const { id } = useParams();
     const [pokemonChoosed, setPokemonChoosed] = useState(null);
+    const [traveler, setTraveler] = useState(id);
+    const { id } = useParams();
+    
     
     useEffect(() => {
-
         const request = axios.get(`https://pokeapi.co/api/v2/pokemon/${id}`);
             request.then(anwser => {
             setPokemonChoosed(anwser.data)
-            console.log(anwser.data);
-        //   setPokemons(anwser.data.results)
         });
-      },[]);
+      },[traveler]);
+      const fowardPokemon = () => {
+          setTraveler(parseInt(id) + 1)
+      }
+
+      const retreatPokemon = () => {
+        setTraveler(parseInt(id) - 1)
+      }
  
     return (
             <div className='inspect'>
                 {pokemonChoosed ?  <>   <div className='selected__Pokemon'>
-                                            <button><ion-icon name="chevron-back-outline"></ion-icon></button>
+                                            <Link to={`/pokemon/${(parseInt(id) - 1)}`}>
+                                            {id == 1 ?  null : <button onClick={()=> fowardPokemon()}><ion-icon name="chevron-back-outline"></ion-icon></button>}
+                                            </Link>
                                             <div>
                                                 <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`}/>
                                                 <p>{pokemonChoosed.name}</p>
                                                 <span>#{id}</span>
                                             </div>
-                                            <button><ion-icon name="chevron-forward-outline"></ion-icon></button>
+                                            <Link to={`/pokemon/${(parseInt(id) + 1)}`}>
+                                            {id == 893 ? null :<button onClick={()=> retreatPokemon()}><ion-icon name="chevron-forward-outline"></ion-icon></button>}
+                                            </Link>
                                         </div>
                                         <Status pokemonChoosed={pokemonChoosed}/>
                                     </> 
                                 :  
                                     <span className='loading__pokemons' >
-                                        <img src='img/pikachuDance.gif' />
+                                        <img src='/img/pikachuDance.gif' />
                                         Carregando Inspeção do Pokemon...
                                     </span>
                                     }
