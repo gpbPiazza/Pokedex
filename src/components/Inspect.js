@@ -11,13 +11,13 @@ export default function Inspect() {
     const [traveler, setTraveler] = useState(id);
     const { id } = useParams();
     
-    
     useEffect(() => {
         const request = axios.get(`https://pokeapi.co/api/v2/pokemon/${id}`);
             request.then(anwser => {
             setPokemonChoosed(anwser.data)
         });
       },[traveler]);
+
       const fowardPokemon = () => {
           setTraveler(parseInt(id) + 1)
       }
@@ -47,8 +47,7 @@ export default function Inspect() {
                                     <span className='loading__pokemons' >
                                         <img src='/img/pikachuDance.gif' />
                                         Carregando Inspeção do Pokemon...
-                                    </span>
-                                    }
+                                    </span>}
             </div>
     );
 }

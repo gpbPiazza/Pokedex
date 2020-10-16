@@ -10,26 +10,26 @@ export default function Status(props) {
             <div className='status'>
                 <div>
                     <span>
-                    Peso
+                        Peso
                     </span>
                     <p>
-                    {pokemonChoosed.weight}
+                        {pokemonChoosed.weight}
                     </p>
                 </div>
                 <div>
                     <span>
-                    Altura
+                        Altura
                     </span>
                     <p>
-                    {pokemonChoosed.height}
+                        {pokemonChoosed.height}
                     </p>
                 </div>
                     <div>
                     <span>
-                    Exp. base
+                        Exp. base
                     </span>
                     <p>
-                    {pokemonChoosed.base_experience}
+                        {pokemonChoosed.base_experience}
                     </p>
                 </div>  
             </div>
@@ -52,8 +52,7 @@ export default function Status(props) {
                         <p>{element.ability.name}</p>
                     </li>
                     )}
-            </ul>
-                                   
+            </ul>                   
         </div>
   );
 }

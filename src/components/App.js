@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import {
+import { 
   BrowserRouter as Router,
   Switch,
   Route
@@ -23,18 +23,17 @@ export default function App() {
  
   return (
       <>
-      
-      <Router >
-        <Header />
-        <Switch>
-          <Route path="/pokemon/:id">
-            <Inspect pokemns={pokemns}/>
-          </Route>  
-          <Route path="/">
-            <Home pokemns={pokemns}/> 
-          </Route>
-        </Switch>
-      </Router>
+        <Router >
+          <Header />
+          <Switch>
+            <Route path="/pokemon/:id">
+              <Inspect pokemns={pokemns}/>
+            </Route>  
+            <Route path="/">
+              <Home pokemns={pokemns}/> 
+            </Route>
+          </Switch>
+        </Router>
       </>
   );
 }
