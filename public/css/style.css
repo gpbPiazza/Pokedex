@@ -18,7 +18,11 @@ body {
     box-shadow: 0 4px 4px rgba(0, 0, 0,0.5);
     z-index: 1;
   }
-  
+  .loadingPokemons {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
   .home__container {
     margin: 1rem;
     margin-top: 100px;
