@@ -20,7 +20,7 @@ export default function Inspect() {
       },[]);
  
     return (
-            <>
+            <div className='inspect'>
                 {pokemonChoosed ?  <>   <div className='selected__Pokemon'>
                                             <button><ion-icon name="chevron-back-outline"></ion-icon></button>
                                             <div>
@@ -33,12 +33,12 @@ export default function Inspect() {
                                         <Status pokemonChoosed={pokemonChoosed}/>
                                     </> 
                                 :  
-                                     <span className='loading__pokemons'>
+                                    <span className='loading__pokemons' >
                                         <img src='img/pikachuDance.gif' />
                                         Carregando Inspeção do Pokemon...
                                     </span>
                                     }
-            </>
+            </div>
     );
 }
 
