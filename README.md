@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/img/logo-pokedex.png" width="175" alt="Pokédex" />
+  <img src="dist/img/logo-pokedex.png" width="175" alt="Pokédex" />
 </p>
 
 # Projeto - Pokédex
