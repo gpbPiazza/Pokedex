@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="dist/img/logo-pokedex.png" width="175" alt="Pokédex" />
+  <img src="https://cdn.bulbagarden.net/upload/4/4b/Pok%C3%A9dex_logo.png" width="175" alt="Pokédex" />
 </p>
 
 # Projeto - Pokédex
