@@ -12,6 +12,7 @@ export default function Inspect() {
     const { id } = useParams();
     
     useEffect(() => {
+        setPokemonChoosed(null);
         const request = axios.get(`https://pokeapi.co/api/v2/pokemon/${id}`);
             request.then(anwser => {
             setPokemonChoosed(anwser.data)
