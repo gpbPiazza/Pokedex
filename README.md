@@ -9,14 +9,6 @@
    This project was developed throughout the Bootcamp of "Respode Aí" as a web application that lists all Pokemons and their descriptions.
 </p>
 
-<p align="center">
-    <a href="#features">Features</a> • 
-    <a href="#tech">Tech Stack</a> •
-    <a href="#layout">Layout</a> • 
-    <a href="#contributors">Contributors</a> • 
-    <a href="#author">Author</a>
-</p>
-
 ### Features
 - [x] List of pokemons<br>
 - [x] Viewing the description of the chosen pokemon<br>
