@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="dist/images/logo.png" width="175" alt="Pokédex" />
+  <img src="/img/logo-pokedex.png" width="175" alt="Pokédex" />
 </p>
 
 # Projeto - Pokédex
@@ -61,7 +61,7 @@ The application layout is available on Vercel:
 
 ### Author
 ---
-<img src='https://avatars1.githubusercontent.com/u/67717060?s=460&u=782fce1a643aea2e1fabf8883fb861670c34dfbe&v=4'>
+Gabriel Pedro Braga Piazza.
 
 <br>
 Made by, Get in Touch!<br><br>
