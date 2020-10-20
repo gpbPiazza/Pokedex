@@ -26,15 +26,32 @@ body {
   }
 
   .loading__pokemons {
+    display: flex;
+    flex-direction: column;
     text-align: center;
     font-weight: bold;
     font-size: 1.5rem;
   }
 
   .home__container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     margin: 1rem;
     display: flex;
   }
+  
+  .home__container input {
+    border: none;
+    width: 15rem;
+    border-bottom: 1px solid #b1b1b1;
+    border-radius: 1rem;
+    outline: none;
+    
+  }
+
+  
   
   .home__container li {
       flex-shrink: 0;

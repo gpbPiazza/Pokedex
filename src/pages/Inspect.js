@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import {useParams} from "react-router-dom";
-import Status from './Status';
+import Status from '../components/Status';
 import {Link} from "react-router-dom";
 
 

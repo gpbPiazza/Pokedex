@@ -7,19 +7,19 @@ import {
 import axios from 'axios';
 
 
-import Header from './Header';
-import Home from './Home';
-import Inspect from './Inspect';
+import Header from './components/Header';
+import Home from './pages/Home';
+import Inspect from './pages/Inspect';
 
 export default function App() {
   const [pokemns, setPokemons] = useState(null);
   
-  useEffect(() => {
-    const request = axios.get("https://pokeapi.co/api/v2/pokemon?limit=893");
-		request.then(anwser => {
-      setPokemons(anwser.data.results)
-    });
-  },[]);
+  // useEffect(() => {
+  //   const request = axios.get("https://pokeapi.co/api/v2/pokemon?limit=893");
+	// 	request.then(anwser => {
+  //     setPokemons(anwser.data.results)
+  //   });
+  // },[]);
  
   return (
       <>

@@ -49,6 +49,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+input:focus, textarea:focus, select:focus{
+	outline: none;
+}
 
 * {
     box-sizing:border-box;
