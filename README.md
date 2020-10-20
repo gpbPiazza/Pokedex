@@ -1,47 +1,69 @@
-# Projeto #08 - Pokédex
+<p align="center">
+  <img src="dist/images/logo.png" width="175" alt="Pokédex" />
+</p>
 
-# Descrição
+# Projeto - Pokédex
 
-Nessa semana você fará seu primeiro projeto React com dados dinâmicos! Você construirá uma Pokédex como uma Single-Page Application, consumindo uma API pública de Pokémon :)
+## Objective
+<p>
+   This project was developed throughout the Bootcamp of "Respode Aí" as a web application that lists all Pokemons and their descriptions.
+</p>
 
-Repositório de referência: 
+<p align="center">
+    <a href="#features">Features</a> • 
+    <a href="#tech">Tech Stack</a> •
+    <a href="#layout">Layout</a> • 
+    <a href="#contributors">Contributors</a> • 
+    <a href="#author">Author</a>
+</p>
 
-# Requisitos
+### Features
+- [x] List of pokemons<br>
+- [x] Viewing the description of the chosen pokemon<br>
+- [x] Pokemon search tool<br>
+- [x] Navigation buttons between description of pokemon
 
-- Geral
-    - [x]  Manipule o HTML usando somente React (sem usar o document nem bibliotecas como jQuery)
-    - [x]  Seu projeto deverá ser desenvolvido utilizando Git e GitHub
-    - [x]  Para isso, comece fazendo um **fork** **privado** do projeto de referência:
-    - [x]  **A cada requisito implementado** faça um commit com uma mensagem descritiva do que você evoluiu. Caso queira dividir um requisito em vários commits, não há problema. Mas evite colocar mais de um requisito no mesmo commit
-- Layout
-    - [x]  Aplicar layout para mobile, seguindo imagens fornecida (não é necessário implementar um layout para desktop)
-    - [x]  Topo deve ser fixo
-    - [x]  Hexadecimal do vermelho: #E44141
-- Lista de Pokémon
-    - [X]  Ao entrar na página inicial (`"/"`), deverá ser carregada uma lista com todos os Pokémon da API, seguindo o layout fornecido
-        - URL da API para buscar todos os Pokémon: [https://pokeapi.co/api/v2/pokemon?limit=893](https://pokeapi.co/api/v2/pokemon?limit=893)
-    - [X]  Enquanto a lista está carregando, deve ser exibida uma mensagem de "Carregando" na tela
-    - [X]  Ao clicar em um Pokémon, o usuário deverá ser encaminhado para a rota `"/pokemon/:id"` em que no lugar de **:id** entre o id do Pokémon conforme retornou da API
-        - Dica: a API não retorna o id explicitamente, porém ela retorna uma URL do Pokémon, e o último parâmetro dessa URL é o id. Para pegar somente o id de dentro dessa string, pesquise pelo método `.split()` e quebre essa string a cada barra (`/`)
-- Página de um Pokémon
-    - [x]  Ao entrar na página de um Pokémon, deverão ser carregados os dados daquele Pokémon a partir da API e exibidos conforme layout fornecido
-        - URL da API para obter um Pokémon: [https://pokeapi.co/api/v2/pokemon/:id](https://pokeapi.co/api/v2/pokemon/:id), onde :id é o id do Pokémon
-    - [x]  Enquanto os dados do Pokémon estão carregando, deve ser exibida uma mensagem de "Carregando" na tela
-    - [x]  Ao clicar em "Voltar", o usuário deve retornar para a página inicial
-    - [x]  Ao clicar em Próximo/Anterior, o usuário deve ser redirecionado para a página referente ao Pokémon correspondente, seguindo a ordem que vem da API
-        - Para isso, some/subtraia 1 do id do Pokémon
-    - [x]  Caso o usuário esteja visualizando o primeiro/último Pokémon, trate para não exibir o botão de Próximo/Anterior
+### Tech Stack
+Languages:<br>
+<p align="center">
+    <img src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/>
+    <img src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/>
+    <img src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
+    <img src="https://img.shields.io/badge/react%20-%23323330.svg?&style=for-the-badge&logo=react&logoColor=%23F7DF1E"/>
+</p>
 
-# Bônus
+The following tools were used in the construction of the project:
 
-- Busca
-    - [ ]  Na tela de listagem de Pokémon, implementar uma busca pelo nome do Pokémon
-    - [ ]  Essa busca pode ser pelo próprio JS (sem mandar nenhum novo request pra API). Basta filtrar a array de Pokémon exibida, verificando se o nome do Pokémon contém a palavra digitada no campo de busca
+- [React](https://pt-br.reactjs.org/)<br>
+- [React-Router](https://reactrouter.com/)<br>
+- [Webpack](https://webpack.js.org/)<br>
+- [Node.js](https://nodejs.org/en/)<br>
+- [Axios](https://github.com/axios/axios)<br>
+- [ionicos](https://ionicons.com/)<br>
+- [Babel](https://babeljs.io/)<br>
 
-# Layout
+# Layout Mobile
 
-![./docs/img/pagina-inicial.png](./docs/img/pagina-inicial.png)
+The application layout is available on Vercel:
 
-![./docs/img/pagina-pokemon.png](./docs/img/pagina-pokemon.png)
+- [Vercel](https://thaliadettenborn-pokedex-jh61irit7.vercel.app/)
 
-![./docs/img/bonus-busca.png](./docs/img/bonus-busca.png)
+![dist/images/bonus-busca.png](dist/images/bonus-busca.png)<br>
+![dist/images/pagina-pokemon.png](dist/images/pagina-pokemon.png)
+
+### Contributors
+<a href="https://www.respondeai.com.br/">
+<img style="border-radius: 50%;" src="https://avatars3.githubusercontent.com/u/69740567?s=60&v=4" width="100px;"/>
+<br>
+<sub><b>Responde Aí</b></sub>
+</a>
+
+
+### Author
+---
+
+<br>
+Made by, Get in Touch!<br><br>
+<a href="https://www.linkedin.com/in/gabriel-piazza//"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a> 
+<a href="mailto:pedro.piazza99@gmail.com"><img src="https://img.shields.io/badge/gmail-D14836?&style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<a href="https://github.com/gpbPiazza"><img src="https://img.shields.io/badge/github-%23100000.svg?&style=for-the-badge&logo=github&logoColor=white" /></a>
