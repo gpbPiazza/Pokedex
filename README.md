@@ -49,7 +49,7 @@ The application layout is available on Vercel:
 - [Link](https://thal/)
 
 <img src='https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F667c7b1c-1e4d-48a9-892c-30cf989ff090%2F03_-_Bnus_Busca.png?table=block&id=c8c32c18-e265-475a-8c2f-e60b44312d2d&width=750&userId=1c93da35-449e-4e62-b3f3-894be05f8dbe&cache=v2'><br>
-![dist/images/pagina-pokemon.png](dist/images/pagina-pokemon.png)
+<img src='https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fae43f217-b9ff-4102-b970-005d245d4266%2F02_-_Pgina_Pokmon.png?table=block&id=00289b28-30d7-4d67-855f-b72403b91ab1&width=750&userId=1c93da35-449e-4e62-b3f3-894be05f8dbe&cache=v2'
 
 ### Contributors
 <a href="https://www.respondeai.com.br/">
@@ -61,6 +61,7 @@ The application layout is available on Vercel:
 
 ### Author
 ---
+<img src='https://avatars1.githubusercontent.com/u/67717060?s=460&u=782fce1a643aea2e1fabf8883fb861670c34dfbe&v=4'>
 
 <br>
 Made by, Get in Touch!<br><br>
