@@ -31,7 +31,8 @@ export default function Inspect() {
             <div className='inspect'>
                 {pokemonChoosed ?  <>   <div className='selected__Pokemon'>
                                             <Link to={`/pokemon/${(parseInt(id) - 1)}`}>
-                                            {id == 1 ?  null : <button onClick={()=> fowardPokemon()}><ion-icon name="chevron-back-outline"></ion-icon></button>}
+                                            {id > 1  && 
+                                                <button onClick={()=> fowardPokemon()}><ion-icon name="chevron-back-outline"></ion-icon></button>}
                                             </Link>
                                             <div>
                                                 <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`}/>
@@ -39,7 +40,8 @@ export default function Inspect() {
                                                 <span>#{id}</span>
                                             </div>
                                             <Link to={`/pokemon/${(parseInt(id) + 1)}`}>
-                                            {id == 893 ? null :<button onClick={()=> retreatPokemon()}><ion-icon name="chevron-forward-outline"></ion-icon></button>}
+                                            {id < 893 && 
+                                                <button onClick={()=> retreatPokemon()}><ion-icon name="chevron-forward-outline"></ion-icon></button>}
                                             </Link>
                                         </div>
                                         <Status pokemonChoosed={pokemonChoosed}/>
