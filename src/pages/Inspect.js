@@ -17,7 +17,7 @@ export default function Inspect() {
             request.then(anwser => {
             setPokemonChoosed(anwser.data)
         });
-      },[traveler]);
+      },[id]);
 
       const fowardPokemon = () => {
           setTraveler(parseInt(id) + 1)
