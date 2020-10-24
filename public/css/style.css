@@ -48,6 +48,7 @@ body {
     border-bottom: 1px solid #b1b1b1;
     outline: none;
     height: 2rem;
+    border-radius: 0.5rem;
     font-size: 1rem;
     color: #b1b1b1;
   }
@@ -137,6 +138,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .selected__Pokemon button ion-icon {
+    color: #000000;
+
   }
 
   .status__container div {
