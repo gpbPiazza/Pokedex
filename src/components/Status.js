@@ -1,11 +1,7 @@
 import React from 'react';
 
-
-
-export default function Status(props) {
-    const {pokemonChoosed} = props;
- 
-  return (
+export default function Status({pokemonChoosed}) {
+    return (
         <div className='status__container'>
             <div className='status'>
                 <div>
@@ -41,7 +37,7 @@ export default function Status(props) {
                     <li>
                         <p>{element.type.name}</p>
                     </li>
-                    )}
+                )}
             </ul> 
             <span className='types__and__abilities--title'>
                 Habilidades
@@ -51,8 +47,8 @@ export default function Status(props) {
                     <li>
                         <p>{element.ability.name}</p>
                     </li>
-                    )}
+                )}
             </ul>                   
         </div>
-  );
+    );
 }

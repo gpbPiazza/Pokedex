@@ -2,7 +2,6 @@ import React, {useState, useEffect} from 'react';
 import axios from 'axios';
 import Card from '../components/Card';
 
-
 export default function Home() {
   const [searchPokemon, setSearchPokemon] = useState('');
   const [pokemns, setPokemons] = useState([]);
@@ -10,7 +9,6 @@ export default function Home() {
   useEffect(() => {
     const request = axios.get("https://pokeapi.co/api/v2/pokemon?limit=893");
 		request.then(anwser => {
-      console.log(anwser)
       setPokemons(anwser.data.results)
     });
   },[]);
@@ -18,7 +16,6 @@ export default function Home() {
   const search = (text) => {
     setSearchPokemon(text)
   }
-
 
   if (pokemns.length === 0) {
     return (<span className='loading__pokemons'>
@@ -28,8 +25,6 @@ export default function Home() {
   }
 
   const filtredPokemons = pokemns.filter(pokemn => pokemn.name.toLowerCase().includes(searchPokemon.toLowerCase()))
-
-
 
   return (
     <div className='home__container'>

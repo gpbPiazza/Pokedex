@@ -1,11 +1,7 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 
-
-export default function Card(props) {
-    const {name, id} = props;
-    
-    
+export default function Card({name, id}) {    
   return (
       <>
         <Link to={`/pokemon/${id}`} >
