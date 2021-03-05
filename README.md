@@ -6,7 +6,7 @@
 
 ## Objective
 <p>
-   This project was developed throughout the Bootcamp of "Respode Aí" as a web application that lists all Pokemons and their descriptions.
+   This project was developed throughout the Bootcamp of "Respode Aí" as a web application that list all Pokemons and their descriptions.
 </p>
 
 ### Features
@@ -34,11 +34,13 @@ The following tools were used in the construction of the project:
 - [ionicos](https://ionicons.com/)<br>
 - [Babel](https://babeljs.io/)<br>
 
+# Application Link:
+- [Link](https://piazza-pokedex.netlify.app/)
+
 # Layout Mobile
 
 The application layout is available on Netlify:
 
-- [Link](https://piazza-pokedex.netlify.app/)
 
 <img src='https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F667c7b1c-1e4d-48a9-892c-30cf989ff090%2F03_-_Bnus_Busca.png?table=block&id=c8c32c18-e265-475a-8c2f-e60b44312d2d&width=750&userId=1c93da35-449e-4e62-b3f3-894be05f8dbe&cache=v2'><br>
 
